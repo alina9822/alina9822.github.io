@@ -1,0 +1,40 @@
+entries:
+  - institution: Bangladesh University of Engineering and Technology (BUET)
+    url: https://www.buet.ac.bd/web/#/
+    area: Computer Science and Engineering
+    studyType: B.Sc.
+    start_date: 2020-02
+    end_date: 2025-03
+    highlights:
+      - "CGPA 3.55/4.00 (Final Year 3.96/4.00)"
+    courses:
+      - name: Machine Learning
+        description: Supervised and unsupervised learning techniques and predictive model building.
+      - name: Computer Security
+        description: Principles of cryptography, system security, and secure software design.
+      - name: Computer Networks
+        description: Network architectures, protocols, and the fundamentals of data communication.
+      - name: Software Engineering
+        description: Software development life cycle, design patterns, and team-based project methodologies.
+      - name: Introduction to Bioinformatics
+        description: Computational methods for analyzing biological sequences and data.
+      - name: Algorithm Engineering
+        description: Advanced algorithm design, analysis, and computational complexity.
+      - name: Basic Graph Theory
+        description: Graph algorithms, properties, and their applications in computer science.
+
+  - institution: Shaheed Bir Uttam LT Anwar Girls' College
+    studyType: Higher Secondary Certificate (HSC)
+    start_date: 2017-01
+    end_date: 2019-12
+    score: "5.00/5.00"
+    highlights:
+      - "GPA: 5.00/5.00"
+
+  - institution: Agargaon Taltola Govt. Colony High School and College
+    studyType: Secondary School Certificate (SSC)
+    start_date: 2015-01
+    end_date: 2017-12
+    score: "5.00/5.00"
+    highlights:
+      - "GPA: 5.00/5.00"

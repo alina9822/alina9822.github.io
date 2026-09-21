@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Graduated with a BSc in Computer Science from BUET — overall CGPA 3.55/4.00, with a **final-year CGPA of 3.96/4.00**.
+Graduated with a BSc in Computer Science from BUET — overall CGPA 3.55/4.00, with a final-year CGPA of 3.96/4.00.

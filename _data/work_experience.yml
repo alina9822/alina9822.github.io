@@ -1,0 +1,10 @@
+entries:
+  - company: OpenRefactory
+    location: Dhaka, Bangladesh
+    position: Software Engineer (Full-time)
+    start_date: 2025-07
+    summary: OpenRefactory develops security tools that help engineering and security teams scale application security by automatically remediating software vulnerabilities.
+    highlights:
+      - Contributed to the backend and microservices of ProjectClean, including efficient dependency tree generation for artifacts, query optimization for UI performance, and API development.
+      - Contributed to the algorithm design and implementation of a VEX generation tool that analyzes CVE reachability using root cause information, dependency chains, and call graphs for both open-source and proprietary code.
+      - Built a license scanning tool from scratch in Python that detects licenses through static text analysis of license files, copyright headers of source code files, and package metadata; output is used to analyze licenses across dependency trees and flag policy violations for open-source license compliance.

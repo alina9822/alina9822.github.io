@@ -1,80 +1,49 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
+title: Hands-on Computer Security Lab
+description: Worked on web exploitation, cryptography, and malware analysis. It included JavaScript-based CSRF/worm attacks, Python implementations of AES and elliptic-curve cryptography, and YARA-based signature analysis. It also included buffer overflow setup and exploit-development resources for low-level security practice.
+
+importance: 4
 category: fun
+tools:
+  - Python
+  - Docker
+  - Wireshark
+  - Azure
+github: https://github.com/alina9822/CSE-406-Computer-Security
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Major tasks completed in this lab
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Web security and browser exploitation in Assignment2
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Built JavaScript payloads to perform forged friend requests, profile modification, and malicious posting.
+Created a self-propagating worm-style script that spreads through the target application.
+This matches classic web attack work around CSRF, request forgery, and unsafe client-side logic.
+Cryptography and key exchange in Offline1
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+Implemented AES encryption/decryption logic in Python.
+Implemented elliptic curve arithmetic and key generation.
+Simulated secure communication using socket-based client/server programs for shared secret generation.
+This demonstrates symmetric cryptography, public-key concepts, and secure channel setup.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+Buffer overflow and exploitation preparation in Buffer_Overflow_Online_Resources
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+Collected environment setup instructions, gdb cheat sheets, exploit references, and stack overflow lab materials.
+This indicates preparation for reverse engineering and memory exploitation exercises.
+Malware signature analysis using YARA in Security Tool Analysis(YARA)
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+Created/organized YARA rules for ELF, PE, console-related, and test-based detection patterns.
+This focuses on static malware analysis and signature matching.
 
-{% raw %}
+Overall
+The lab combined:
+//add the vertical pink bar here claude and list
+web attack analysis,
+cryptographic implementation,
+low-level exploitation basics,
+and malware detection rule writing.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+That makes it a broad computer security lab covering both offensive and defensive security techniques.
 
-{% endraw %}
+**Technology & Tools:** Python, Docker, Wireshark, Azure
