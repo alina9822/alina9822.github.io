@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /education/
-title: education
+title: Education
 description: Academic background and coursework.
 nav: true
 nav_order: 6

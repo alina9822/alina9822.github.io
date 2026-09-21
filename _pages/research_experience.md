@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /research-experience/
-title: research experience
+title: Research Experience
 description: A collection of research experiences with detailed timelines and resources.
 nav: true
 nav_order: 3

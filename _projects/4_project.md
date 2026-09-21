@@ -2,8 +2,7 @@
 layout: page
 title: Hands-on Computer Security Lab
 description: Worked on web exploitation, cryptography, and malware analysis. It included JavaScript-based CSRF/worm attacks, Python implementations of AES and elliptic-curve cryptography, and YARA-based signature analysis. It also included buffer overflow setup and exploit-development resources for low-level security practice.
-
-importance: 4
+importance: 2
 category: fun
 tools:
   - Python
@@ -13,37 +12,21 @@ tools:
 github: https://github.com/alina9822/CSE-406-Computer-Security
 ---
 
-Major tasks completed in this lab
-
-Web security and browser exploitation in Assignment2
-
-Built JavaScript payloads to perform forged friend requests, profile modification, and malicious posting.
-Created a self-propagating worm-style script that spreads through the target application.
-This matches classic web attack work around CSRF, request forgery, and unsafe client-side logic.
-Cryptography and key exchange in Offline1
-
-Implemented AES encryption/decryption logic in Python.
-Implemented elliptic curve arithmetic and key generation.
-Simulated secure communication using socket-based client/server programs for shared secret generation.
-This demonstrates symmetric cryptography, public-key concepts, and secure channel setup.
-
-Buffer overflow and exploitation preparation in Buffer_Overflow_Online_Resources
-
-Collected environment setup instructions, gdb cheat sheets, exploit references, and stack overflow lab materials.
-This indicates preparation for reverse engineering and memory exploitation exercises.
-Malware signature analysis using YARA in Security Tool Analysis(YARA)
-
-Created/organized YARA rules for ELF, PE, console-related, and test-based detection patterns.
-This focuses on static malware analysis and signature matching.
-
-Overall
-The lab combined:
-//add the vertical pink bar here claude and list
-web attack analysis,
-cryptographic implementation,
-low-level exploitation basics,
-and malware detection rule writing.
-
-That makes it a broad computer security lab covering both offensive and defensive security techniques.
-
 **Technology & Tools:** Python, Docker, Wireshark, Azure
+
+Hands-on coursework spanning offensive and defensive computer security, from web exploitation to cryptography and malware analysis.
+
+## Key Work
+
+- **Web Security & Browser Exploitation** (`Assignment2`) — built JavaScript payloads for forged friend requests, profile modification, and malicious posting, and wrote a self-propagating worm-style script. Covers CSRF, request forgery, and unsafe client-side logic.
+- **Cryptography & Key Exchange** (`Offline1`) — implemented AES encryption/decryption and elliptic-curve arithmetic and key generation in Python; simulated secure communication over sockets for shared-secret generation. Covers symmetric cryptography, public-key concepts, and secure channel setup.
+- **Buffer Overflow & Exploitation Prep** (`Buffer_Overflow_Online_Resources`) — collected environment setup instructions, GDB cheat sheets, exploit references, and stack-overflow lab materials for reverse engineering and memory exploitation practice.
+- **Malware Signature Analysis with YARA** (`Security Tool Analysis (YARA)`) — created and organized YARA rules for ELF, PE, console, and test-based detection patterns for static malware analysis and signature matching.
+
+> The lab combined:
+> - Web attack analysis
+> - Cryptographic implementation
+> - Low-level exploitation basics
+> - Malware detection rule writing
+>
+> A broad computer security lab covering both offensive and defensive security techniques.

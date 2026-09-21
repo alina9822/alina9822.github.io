@@ -10,6 +10,8 @@ tools:
   - Node.js
   - Express.js
   - PostgreSQL
+github_frontend: https://github.com/alina9822/Lab-Inventory-Frontend
+github_backend: https://github.com/mrashid5919/Lab-Inventory-Backend
 ---
 
 **Technology & Tools:** React.js, TailwindCSS, Node.js, Express.js, PostgreSQL

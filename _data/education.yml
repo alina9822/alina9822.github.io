@@ -8,19 +8,19 @@ entries:
     highlights:
       - "CGPA 3.55/4.00 (Final Year 3.96/4.00)"
     courses:
-      - name: Machine Learning
+      - name: "CSE 471: Machine Learning"
         description: Supervised and unsupervised learning techniques and predictive model building.
-      - name: Computer Security
+      - name: "CSE 405: Computer Security"
         description: Principles of cryptography, system security, and secure software design.
-      - name: Computer Networks
+      - name: "CSE 322: Computer Networks"
         description: Network architectures, protocols, and the fundamentals of data communication.
-      - name: Software Engineering
+      - name: "CSE 307: Software Engineering"
         description: Software development life cycle, design patterns, and team-based project methodologies.
-      - name: Introduction to Bioinformatics
+      - name: "CSE 463: Introduction to Bioinformatics"
         description: Computational methods for analyzing biological sequences and data.
-      - name: Algorithm Engineering
+      - name: "CSE 461: Algorithm Engineering"
         description: Advanced algorithm design, analysis, and computational complexity.
-      - name: Basic Graph Theory
+      - name: "CSE 421: Basic Graph Theory"
         description: Graph algorithms, properties, and their applications in computer science.
 
   - institution: Shaheed Bir Uttam LT Anwar Girls' College

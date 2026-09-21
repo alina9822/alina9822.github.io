@@ -10,6 +10,8 @@ tools:
   - Spring Boot
   - STOMP
   - Ollama (llama3.2)
+github_frontend: https://github.com/alina9822/Thoughts-Frontend
+github_backend: https://github.com/alina9822/Thoughts-Backend
 ---
 
 **Technology & Tools:** React.js, TailwindCSS, Spring Boot, STOMP, Ollama (llama3.2)

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
 description: A growing collection of your cool projects.
 nav: true
@@ -88,7 +88,18 @@ horizontal: false
                 {% for tool in project.tools %}<span class="tool-badge">{{ tool }}</span>{% endfor %}
               </p>
             {% endif %}
-            {% if project.github %}
+            {% if project.github_frontend or project.github_backend %}
+              {% if project.github_frontend %}
+                <a class="project-code-link" href="{{ project.github_frontend }}" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-brands fa-github"></i> Frontend
+                </a>
+              {% endif %}
+              {% if project.github_backend %}
+                <a class="project-code-link" href="{{ project.github_backend }}" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-brands fa-github"></i> Backend
+                </a>
+              {% endif %}
+            {% elsif project.github %}
               <a class="project-code-link" href="{{ project.github }}" target="_blank" rel="noopener noreferrer">
                 <i class="fa-brands fa-github"></i> Code
               </a>
@@ -138,7 +149,18 @@ horizontal: false
                 {% for tool in project.tools %}<span class="tool-badge">{{ tool }}</span>{% endfor %}
               </p>
             {% endif %}
-            {% if project.github %}
+            {% if project.github_frontend or project.github_backend %}
+              {% if project.github_frontend %}
+                <a class="project-code-link" href="{{ project.github_frontend }}" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-brands fa-github"></i> Frontend
+                </a>
+              {% endif %}
+              {% if project.github_backend %}
+                <a class="project-code-link" href="{{ project.github_backend }}" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-brands fa-github"></i> Backend
+                </a>
+              {% endif %}
+            {% elsif project.github %}
               <a class="project-code-link" href="{{ project.github }}" target="_blank" rel="noopener noreferrer">
                 <i class="fa-brands fa-github"></i> Code
               </a>
