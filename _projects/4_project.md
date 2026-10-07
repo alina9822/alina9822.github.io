@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hands-on Computer Security Lab
+title: "SEED Labs: Hands-on Labs for Security Education"
 description: Worked on web exploitation, cryptography, and malware analysis. It included JavaScript-based CSRF/worm attacks, Python implementations of AES and elliptic-curve cryptography, and YARA-based signature analysis. It also included buffer overflow setup and exploit-development resources for low-level security practice.
 importance: 2
 category: fun

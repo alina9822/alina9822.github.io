@@ -6,7 +6,7 @@ entries:
     start_date: 2020-02
     end_date: 2025-03
     highlights:
-      - "CGPA 3.55/4.00 (Final Year 3.96/4.00)"
+      - "CGPA 3.55/4.00 (Senior Year 3.96/4.00)"
     courses:
       - name: "CSE 471: Machine Learning"
         description: Supervised and unsupervised learning techniques and predictive model building.

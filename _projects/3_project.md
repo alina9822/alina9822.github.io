@@ -1,25 +1,25 @@
 ---
 layout: page
-title: Machine Learning Implementations
-description: Implemented major ML workflows- data preprocessing and feature engineering, neural networks and backpropagation, ensemble learning with bagging and stacking, and dimensionality reduction with PCA/EM. It also included federated learning concepts and a paper-based report summarizing the methods and results. Overall, the work focused on understanding, implementing, and evaluating core machine learning techniques in practice.
+title: Multi-Layer Perceptron (MLP)
+description: Implemented a feed-forward neural network from scratch, incorporating dense layers, batch normalization, dropout regularization, and the Adam optimizer to improve convergence and generalization during training.
 importance: 1
 category: work
 tools:
   - Python
-github: https://github.com/alina9822/Machine-Learning-Codes
+  - Numpy
+  - Scikit-learn
+github: https://github.com/alina9822/Machine-Learning-Codes/tree/main/Neural%20Networkand%20%20Backpropagation
 ---
 
 **Technology & Tools:** Python
 
-A collection of core machine learning implementations built from scratch through coursework and independent study, covering the full pipeline from data preparation to advanced learning paradigms.
+A feed-forward neural network built entirely from scratch, covering the core components needed for stable, generalizable training.
 
 ## Key Work
 
-- **Data Preprocessing & Feature Engineering** — cleaning data, handling missing values, transforming features, and preparing datasets for modeling.
-- **Logistic Regression with Bagging & Stacking** — comparing base models and combining predictions to improve performance.
-- **Neural Networks & Backpropagation** — training network weights, computing gradients, and optimizing model parameters.
-- **Federated Learning from Scratch** — exploring the idea of distributed training without centralizing raw data.
-- **PCA & Expectation-Maximization** — dimensionality reduction, latent structure learning, and probabilistic clustering.
-- **Documentation** — coursework notes and a summary write-up explaining the methods and findings.
+- **Dense Layers** — implemented the forward and backward passes for fully-connected layers.
+- **Batch Normalization** — stabilized and accelerated training by normalizing layer activations.
+- **Dropout Regularization** — reduced overfitting by randomly deactivating units during training.
+- **Adam Optimizer** — implemented adaptive moment estimation to improve convergence.
 
-> A practical machine learning coursework spanning preprocessing, classical models, neural networks, ensemble methods, and advanced learning paradigms — both theory and implementation.
+> A from-scratch MLP implementation covering the key building blocks of modern neural network training: normalization, regularization, and adaptive optimization.

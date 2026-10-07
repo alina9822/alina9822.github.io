@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Computer Graphics Sessional
+title: Computer Graphics Projects
 description: Completed three major graphics tasks- building 3D OpenGL scenes and animations, implementing transformation and projection pipelines for 3D objects, and developing a ray-tracing renderer with lighting and shading. The work progressed from basic drawing to view-matrix operations and finally to realistic image generation. Overall, it demonstrated the core stages of computer graphics- modeling, transformation, rendering, and visualization.
 importance: 5
 category: fun

@@ -2,7 +2,7 @@
 layout: page
 permalink: /research-experience/
 title: Research Experience
-description: A collection of research experiences with detailed timelines and resources.
+description: A collection of my research experiences.
 nav: true
 nav_order: 3
 ---
@@ -36,6 +36,13 @@ nav_order: 3
     font-size: 1.15rem;
     margin-top: 1rem;
   }
+
+  /* put the supervisor/mentor line on its own row instead of crowding
+     the term badge on the same line */
+  .research-experience .course-instructor {
+    display: block;
+    margin-top: 0.25rem;
+  }
 </style>
 {% if site.research_experiences %}
   <div class="courses research-experience">
@@ -57,7 +64,7 @@ nav_order: 3
               {% endif %}
 
               {% if experience.instructor %}
-                <span class="course-instructor">{{ experience.instructor }}</span>
+                <span class="course-instructor">{{ experience.instructor_label | default: "Supervisor" }}: {{ experience.instructor }}</span>
               {% endif %}
             </div>
 

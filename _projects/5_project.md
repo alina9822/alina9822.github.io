@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hands-on Computer Networks Lab
+title: Computer Networking Projects
 description: Implemented the core networking concepts of socket programming, multi-client communication, and file transfer using Java-based client/server systems. It also included ns-3 simulation of network behavior under different traffic and mobility conditions, along with error detection and correction techniques like CRC and Hamming code. Overall, the work demonstrates practical understanding of how network applications, protocols, and data reliability are implemented and analyzed.
 importance: 3
 category: fun
