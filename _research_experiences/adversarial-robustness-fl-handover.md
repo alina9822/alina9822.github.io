@@ -2,7 +2,8 @@
 layout: course
 title: Adversarial Robustness of Federated Learning-Based Handover Prediction
 description: Investigating security vulnerabilities of federated learning models used for handover prediction in 5G networks, including model poisoning, backdoor, and evasion attacks.
-instructor: Assoc. Prof. Sukarna Barua (Dept. of CSE, BUET) and Assoc. Prof. Nashid Shahriar (Dept. of CS, University of Regina)
+instructor: Assoc. Prof. Sukarna Barua (Dept. of CSE, BUET) 
+# and Assoc. Prof. Nashid Shahriar (Dept. of CS, University of Regina)
 instructor_label: Supervisors
 year: 2026
 term: Ongoing Research Project
