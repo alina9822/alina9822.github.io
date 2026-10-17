@@ -2,6 +2,7 @@
 layout: page
 title: Federated Learning with Adversarial Attacks
 description: Reproduced Bhagoji et al.'s model-poisoning attacks on a 10-client federated learning system built from scratch, and evaluated FedAvg, Krum, and coordinate-wise median as defenses.
+img: assets/img/3b_federated.png
 importance: 1.5
 category: work
 tools:
@@ -10,6 +11,8 @@ tools:
   - Scikit-learn
 github: https://github.com/alina9822/Machine-Learning-Codes/tree/main/Federated%20Learning%20from%20scratch
 ---
+
+{% include figure.liquid loading="eager" path="assets/img/3b_federated.png" title="Federated Learning with Adversarial Attacks" class="img-fluid rounded z-depth-1" %}
 
 **Technology & Tools:** Python
 

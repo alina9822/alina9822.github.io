@@ -2,6 +2,7 @@
 layout: page
 title: Multi-Layer Perceptron (MLP)
 description: Implemented a feed-forward neural network from scratch, incorporating dense layers, batch normalization, dropout regularization, and the Adam optimizer to improve convergence and generalization during training.
+img: assets/img/3_mlp.png
 importance: 1
 category: work
 tools:
@@ -10,6 +11,8 @@ tools:
   - Scikit-learn
 github: https://github.com/alina9822/Machine-Learning-Codes/tree/main/Neural%20Networkand%20%20Backpropagation
 ---
+
+{% include figure.liquid loading="eager" path="assets/img/3_mlp.png" title="Multi-Layer Perceptron" class="img-fluid rounded z-depth-1" %}
 
 **Technology & Tools:** Python
 

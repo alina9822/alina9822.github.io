@@ -2,6 +2,7 @@
 layout: page
 title: C Compiler From Scratch
 description: Built a mini-compiler for a subset of a C-like language, covering the core phases of compiler construction- lexical analysis, parsing, symbol table and scope management, and code generation. It includes a Flex-based lexer, a Yacc/Bison grammar that handles declarations, expressions, and control flow (if, else, while), a scope-aware symbol table for tracking function and variable declarations, and a basic assembly-style code generator, demonstrating a complete end-to-end compiler workflow from source code to generated instructions.
+img: assets/img/7_compiler.png
 importance: 4
 category: fun
 tools:
@@ -11,6 +12,8 @@ tools:
   - C++
 github: https://github.com/alina9822/CSE-310-Compiler
 ---
+
+{% include figure.liquid loading="eager" path="assets/img/7_compiler.png" title="C Compiler From Scratch" class="img-fluid rounded z-depth-1" %}
 
 **Technology & Tools:** Flex, Bison, YACC, C++
 

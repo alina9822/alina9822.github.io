@@ -2,6 +2,7 @@
 layout: page
 title: "SEED Labs: Hands-on Labs for Security Education"
 description: Worked on web exploitation, cryptography, and malware analysis. It included JavaScript-based CSRF/worm attacks, Python implementations of AES and elliptic-curve cryptography, and YARA-based signature analysis. It also included buffer overflow setup and exploit-development resources for low-level security practice.
+img: assets/img/4_seed_labs.png
 importance: 2
 category: fun
 tools:
@@ -11,6 +12,8 @@ tools:
   - Azure
 github: https://github.com/alina9822/CSE-406-Computer-Security
 ---
+
+{% include figure.liquid loading="eager" path="assets/img/4_seed_labs.png" title="SEED Labs" class="img-fluid rounded z-depth-1" %}
 
 **Technology & Tools:** Python, Docker, Wireshark, Azure
 

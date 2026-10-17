@@ -2,6 +2,7 @@
 layout: page
 title: Computer Networking Projects
 description: Implemented the core networking concepts of socket programming, multi-client communication, and file transfer using Java-based client/server systems. It also included ns-3 simulation of network behavior under different traffic and mobility conditions, along with error detection and correction techniques like CRC and Hamming code. Overall, the work demonstrates practical understanding of how network applications, protocols, and data reliability are implemented and analyzed.
+img: assets/img/5_networking.png
 importance: 3
 category: fun
 tools:
@@ -10,6 +11,8 @@ tools:
   - NS3
 github: https://github.com/alina9822/CSE-322-Computer-Networks
 ---
+
+{% include figure.liquid loading="eager" path="assets/img/5_networking.png" title="Computer Networking Projects" class="img-fluid rounded z-depth-1" %}
 
 **Technology & Tools:** Java, Cisco Packet Tracer, NS3
 

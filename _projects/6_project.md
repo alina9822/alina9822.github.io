@@ -2,6 +2,7 @@
 layout: page
 title: Computer Graphics Projects
 description: Completed three major graphics tasks- building 3D OpenGL scenes and animations, implementing transformation and projection pipelines for 3D objects, and developing a ray-tracing renderer with lighting and shading. The work progressed from basic drawing to view-matrix operations and finally to realistic image generation. Overall, it demonstrated the core stages of computer graphics- modeling, transformation, rendering, and visualization.
+img: assets/img/6_graphics.png
 importance: 5
 category: fun
 tools:
@@ -9,6 +10,8 @@ tools:
   - OpenGL
 github: https://github.com/alina9822/CSE-410-Computer-Graphics
 ---
+
+{% include figure.liquid loading="eager" path="assets/img/6_graphics.png" title="Computer Graphics Projects" class="img-fluid rounded z-depth-1" %}
 
 **Technology & Tools:** Graphics, OpenGL
 
