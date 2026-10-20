@@ -5,6 +5,7 @@ date: 2026-10-20 12:00:00
 description: Notes on building a two-pass reachability analysis system that answers CVE questions on proprietary code without ever seeing it.
 tags: security sbom reachability
 categories: writeups
+related_posts: false
 ---
 
 > **Note on this write-up.** These are informal notes from a project, not documentation
@@ -33,7 +34,7 @@ a machine you don't control, against source you're never allowed to see?
 
 ## The shape of it
 
-{% include figure.liquid loading="eager" path="assets/img/writeups/reachability-analysis/chain-trust-boundary.png" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="assets/img/writeups/reachability-analysis/chain-trust-boundary.png" class="img-fluid rounded z-depth-1" alt="Sketch of a dependency chain A to F crossing an organizational boundary: A, B and C are proprietary packages, D, E and F are open source, and the vulnerability is in F." %}
 
 `A` is the customer's application. `B` and `C` are their internal packages. `D`, `E`, `F`
 are open source, and the CVE is in `F`. The question is whether `A` is affected.
@@ -53,7 +54,7 @@ So you cut the chain at the trust boundary and analyse twice:
 
 Three outcomes fall out:
 
-| | |
+| Case | What happens |
 |---|---|
 | **Case C** | The CVE never reaches `D`. Done: nothing private was ever involved. |
 | **Case B** | It reaches `D` but dies somewhere in the private chain. Also done, and now you know *which* internal package it stops at. |
@@ -232,7 +233,7 @@ have to do, not what the tool does.
 The content depends on the case, and Case A alone has four shapes depending on where a
 fix exists in the chain:
 
-{% include figure.liquid loading="eager" path="assets/img/writeups/reachability-analysis/case-a-decision-tree.png" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="assets/img/writeups/reachability-analysis/case-a-decision-tree.png" class="img-fluid rounded z-depth-1" alt="Hand-drawn decision tree for Case A, branching on whether a fix exists in F and in D, into the four sub-cases A-1 through A-4." %}
 
 - **A-1: no fix anywhere upstream.** The vulnerability is real and reachable and nobody
   has patched it. Fork or forge a fix, propagate it down through every package in between,
@@ -246,7 +247,7 @@ fix exists in the chain:
 
 Case B is the one that looks simple and isn't:
 
-{% include figure.liquid loading="eager" path="assets/img/writeups/reachability-analysis/case-b-decision-tree.png" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="assets/img/writeups/reachability-analysis/case-b-decision-tree.png" class="img-fluid rounded z-depth-1" alt="Hand-drawn decision tree for Case B, splitting on whether the vulnerability reaches internal packages B or C but not the application A, into sub-cases B-A-1 through B-A-4 and B-2." %}
 
 The vulnerability gets into the proprietary chain but doesn't reach the application, so
 the fix is needed in the internal packages, not in the app. If it reaches `C`, the update
